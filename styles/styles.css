@@ -419,6 +419,10 @@ i{
 }
 
 @media (max-width: 800px) {
+
+  .container{
+    height: 700px;
+  }
   .about-me { 
     grid-template-columns:  1fr;
   }
@@ -444,7 +448,6 @@ i{
     font-size: 2rem;
     padding: 1rem;
   }
-
   
   .photo-profile{
     width: 10rem;
@@ -452,10 +455,12 @@ i{
 
   .profile-info{
     align-items: center;
+ 
     width: 70%;
   }
   .profile-info p{
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .profile-info h1{
