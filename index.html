@@ -1,115 +1,350 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="estilos/estilos.css">
-        <title>Proyecto Final</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1.0, width=device-width">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
-    </head>
-    
-    
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Fabio Pinto</title>
+</head>
+
 <body>
-    
-        <div class="logo"></div>
-        <a href="#menu" class="lanzador-menu" id="enlace-menu"></a>
-        <div id="menu" class="navegacion">
-            <ul>
-            <li><a href="">El espacio</a></li>
-            <li><a href="">Productos</a></li>
-            <li><a href="">Ofertas</a></li>
-            <li><a href="">Reservas</a></li>
-            <li><a href="">Contacto</a></li>
-            </ul>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <p> Fabio Pinto </p>
         </div>
-    
-    <!--banner principal-->
-    <div class="banner-principal">
-        <h1>Recién hecho,<br> todos los días</h1>
-        <hr>
-        <p>Chocolate cake chocolate cake pie candy canes chocolate cake bonbon. I love marzipan liquorice I love cake chupachups. Pie danish macaroon ice cream ice cream. Bonbon sweet bonbon jelly beans jelly-o I love lollipop.</p>
-    </div>
-    
-    <!--bloques-->
-        <div class="bloque1">
-            <h3>Ven al brunch de los domingos</h3>
-            <p>Sesame snaps icing chocolate bar. I love donut powder sesame snaps. Jelly-o topping caramels. Sugar plum I love gummi bears.</p>
+
+        <div class="nav-links">
+            <a href="#inicio"> Inicio </a>
+            <a href="#skills"> Sobre mí </a>
+            <a href=""> Skills </a>
+            <a href=""> Contactos </a>
         </div>
-        
-        <div class="bloque2">
-            <h3>Celebra tus fiestas con nosotros</h3>
-            <p>Bonbon sweet bonbon jelly beans jelly-o I love lollipop. Cookie sesame snaps bear claw. Cake dragée danish. Powder I love liquorice macaroon.</p>
-        </div> 
-    
-    
-    
-    <!--banner secundario-->
-    <div class="banner-secundario">
-        <h2>Ven a desayunar</h2>
-        <hr>
-        <p>Bonbon topping I love sweet roll I love candy icing chocolate jelly. Pie soufflé sweet. Apple pie bonbon caramels powder.</p>
-        <a href="" class="boton-entrada">Descrubre nuestros productos</a>
-    </div>
-    
-    
-    
-    <!--entradas-->
-    <div class="entradas-generales">
-     <div class="entrada1">
-            <div class="icon">
-                <img src="imagenes/Icono1.png">
+
+        <div class="socialmedia">
+            <div class="redes-nav">
+                <div class="social-media-icon">
+                   <a href=""><i class="fab fa-github fa-2x"></i></a> 
+                </div>
+                <div class="social-media-icon">
+                    <a href=""><i class="fab fa-linkedin fa-2x"></i></a> 
+                </div>
+                <div class="social-media-icon">
+                    <a href=""><i class="fab fa-twitter fa-2x"></i></a> 
+                </div>
             </div>
-            <h4>Pan recién hecho</h4>
-            <p>Cupcake danish I love halvah bonbon icing donut. Sweet caramels gingerbread bear claw jujubes chocolate cake pudding sesame snaps bonbon. Chocolate cake wafer pudding muffin wafer sweet roll I love chupa chups. Apple pie jujubes ice cream sugar plum topping.</p>
-    </div>
+        </div>
+    </nav>
     
-       <div class="entrada2">
-            <div class="icon">
-            <img src="imagenes/Icono2.png">
+    <div class="redes">
+        <div class="social-media-icon">
+           <a href=""><i class="fab fa-github fa-2x"></i></a> 
+        </div>
+        <div class="social-media-icon">
+            <a href=""><i class="fab fa-linkedin fa-2x"></i></a> 
+        </div>
+        <div class="social-media-icon">
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a> 
+        </div>
+    </div>
+
+
+    <header class="container" id="inicio">
+        <div class="photo">
+            <img src="assets/fp.png" alt="" class="photo-profile">
+       </div>
+
+       <div class="profile-info">
+        <p> Hola! Yo soy</p>
+        <h1> Fabio A. Pinto </h1>
+        <p> <span> Software Developer </span> y Data Analyst.</p>
+        <p> Soy un apasionado por los datos, la ciencia y la enseñanza.</p>
+
+        <div class="profile-cta">
+            <a class="btn primary" href=""> Mira mi CV </a>
+            <a class=" btn secondary" href=""> Contáctame </a>
+        </div>
+
+
+        </div>
+
+      </header>
+
+
+      <section class="about-me">
+
+        <div class="about-title">
+            <h3> Sobre mí </h3>
+
+            <div class="about-badges">
+                <div class="badge">
+                    <img src="/assets/smpc.webp" alt="" class="img-badge">
+                </div>
+                <div class="badge">
+                    <img src="/assets/sdpc.webp" alt="" class="img-badge">
+                </div>
+                <div class="badge">
+                    <img src="/assets/impc.png" alt="" class="img-badge3">
+                </div>
             </div>
-            <h4>Tartas para cada día</h4>
-            <p>Cupcake danish I love halvah bonbon icing donut. Sweet caramels gingerbread bear claw jujubes chocolate cake pudding sesame snaps bonbon. Chocolate cake wafer pudding muffin wafer sweet roll I love chupa chups. Apple pie jujubes ice cream sugar plum topping.</p>
-    </div>
+        </div>
+
+        <div class="profile">
+            <div class="profile-copy">
+                <div class="profile-copy-text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Modi impedit quos commodi distinctio, necessitatibus nobis id maiores in
+                        laudantium perspiciatis, eius iusto minus recusandae cumque? Quod, obcaecati! Hic, nesciunt debitis?
+                    </p>
     
-         <div class="entrada3">
-            <div class="icon">
-                <img src="imagenes/Icono3.png">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Modi impedit quos commodi distinctio, necessitatibus nobis id maiores in
+                        laudantium perspiciatis, eius iusto minus recusandae cumque? Quod, obcaecati! Hic, nesciunt debitis?
+                    </p>
+                </div>
+
+                <div class="profile-data">
+                    <div>
+                        <h2>Intereses</h2>
+                        <ul>
+                            <li>Desarrollo Web</li>
+                            <li>Python / Django</li>
+                            <li>Gestión de Proyectos</li>
+                            <li>Educación</li>
+                            <li>Comunidad</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Educación</h2>
+                        <ul>
+                            <li>Msc. Ingeniería Matemática y Computación
+                                <span>UNIR, 2021</span>
+                            </li>
+                            <li>Ingeniero Electrónico <span>UPC, 2018</span></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <h4>Prueba nuestros dulces</h4>
-            <p>Cupcake danish I love halvah bonbon icing donut. Sweet caramels gingerbread bear claw jujubes chocolate cake pudding sesame snaps bonbon. Chocolate cake wafer pudding muffin wafer sweet roll I love chupa chups. Apple pie jujubes ice cream sugar plum topping.</p>
-    </div>
-    
-       <div class="entrada4">
-            <div class="icon">
-                <img src="imagenes/Icono4.png">
+        </div>
+
+      </section>
+    <section class="skills" id="skills">
+        <h2> Habilidades</h2>
+        <div class="skills-cards">
+            <div class="skill">
+                <i class="fab fa-python fa-5x"></i>
+                <h3 class="skill-title"> Python / Django </h3>
+                <p class="skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, saepe.</p>
             </div>
-            <h4>Ingredientes ecológicos</h4>
-            <p>Cupcake danish I love halvah bonbon icing donut. Sweet caramels gingerbread bear claw jujubes chocolate cake pudding sesame snaps bonbon. Chocolate cake wafer pudding muffin wafer sweet roll I love chupa chups. Apple pie jujubes ice cream sugar plum topping.</p>
-    </div>
-        <div class="clearfix"></div>
-    </div>
+
+            <div class="skill">
+                <i class="fas fa-tasks fa-5x"></i>
+                <h3 class="skill-title"> Gestión de Proyectos </h3>
+                <p class="skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, saepe.</p>
+            </div>
+
+            <div class="skill">
+                <div>
+                    <i class="fab fa-css3-alt fa-5x"></i>
+                    <i class="fab fa-html5 fa-5x"></i>
+                </div>
+                <h3 class="skill-title"> Diseño Web </h3>
+                <p class="skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, saepe.</p>
+            </div>
+
+            <div class="skill">
+                <i class="fas fa-database fa-5x"></i>
+                <h3 class="skill-title"> Business Intelligence </h3>
+                <p class="skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, saepe.</p>
+            </div>          
+        </div>
+    </section>
+
+    <section class="toolkit">
+        <h2> Herramientas </h2>
+
+        <div class="tools-container">
+            <div class="tools">
+                <div class="tools-info">
+                    <img src="/assets/icons/powerbi.png" alt="" class="tool-icon">
+                    <p class="tool-name"> Power BI </p>
+                </div>
+                <div class="tools-info">
+                    <img src="/assets/icons/python.png" alt="" class="tool-icon">
+                    <p class="tool-name"> Python </p>
+                </div>
+                <div class="tools-info">
+                    <img src="/assets/icons/django.png" alt="" class="tool-icon">
+                    <p class="tool-name"> Django </p>
+                </div>
+                <div class="tools-info">
+                    <img src="/assets/icons/html.png" alt="" class="tool-icon">
+                    <p class="tool-name"> HTML5 </p>
+                </div>
+                <div class="tools-info">
+                    <img src="/assets/icons/css.png" alt="" class="tool-icon">
+                    <p class="tool-name"> CSS3 </p>
+                </div>
+
+                <div class="tools-info">
+
+                </div>
+
+                <div class="tools-info">
+                    <img src="/assets/icons/posgres.png" alt="" class="tool-icon">
+                    <p class="tool-name"> PosgreSQL </p>
+                </div>
+
+                <div class="tools-info">
+                    <img src="/assets/icons/mysql.png" alt="" class="tool-icon">
+                    <p class="tool-name"> MySQL </p>
+                </div>
+
+                <div class="tools-info">
+                    <img src="/assets/icons/mongo.png" alt="" class="tool-icon">
+                    <p class="tool-name"> MongoDB </p>
+                </div>
     
-    
-    
-    
+            </div>
+        </div>
+
+    <section class="experience">
+        <h2> Experiencia</h2>
+
+        <div class="experience-cards">
+            <div class="experience-card">
+                <h3> Docente Tiempo Completo </h3>
+                <p> Fundación Universitaria del Área Andina </p>
+                <p> 2021 - Actualidad </p>
+            </div>
+            
+            <div class="experience-card">
+                <h3> Administrador de Sistemas de Información </h3>
+                <p> Universidad Autónoma de Bucaramanga </p>
+                <p> 2021 - Actualidad </p>
+            </div>
+       
+            <div class="experience-card">
+                <h3> Consultor TI </h3>
+                <p> Soluciones de Software Libre </p>
+                <p> 2021 - Actualidad </p>
+            </div>
+
+            <div class="experience-card">
+                <h3> Project Manager </h3>
+                <p> Uraku Soluciones en Ingeniería </p>
+                <p> 2019 - 2021 </p>
+            </div>
+
+            <div class="experience-card">
+                <h3> Asesor TIC </h3>
+                <p> ASMIDEC </p>
+                <p> 2019 - 2020 </p>
+            </div>
+
+            <div class="experience-card">
+                <h3> Consultor TI </h3>
+                <p> Cymetria Group SAS </p>
+                <p> 2019 - 2021 </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="charlas">
+        <h2> Charlas </h2>
+
+        <div class="charlas-cards">
+            <div class="charlas-empty">
+
+
+            </div>
+
+            <div class="charlas-combo">
+                <div class="charlas-card">
+                    <h3> Infraestructura Tecnología para la Industria 4.0: IoT, Smart Cities y Realidad Mixta. </h3>
+                    <p class="charla-site"> Universidad Popular del Cesar </p>
+                    <p> Undécima jornada de ciencia y tecnología y tercera  Virtual del programa de ingeniería electrónica de la Universidad Popular del Cesar</p>
+                    <p> 2021</p>
+
+                    <a class="btn charla-view" href=""> VER </a>
+
+                </div>
+
+                <div class="charlas-card">
+                    <h3> Detección de pauta publicitaria en streaming de audio. </h3>
+                    <p class="charla-site"> VII CONGRESO LATINOAMERICANO DE SISTEMAS E INFORMATICA </p>
+                    <p> 2021</p>
+
+                    <a class="btn charla-view" href=""> VER </a>
+
+                </div>
+
+                <div class="charlas-card">
+                    <h3> Modelos epidemiológicos con Python. </h3>
+                    <p class="charla-site"> Meetup de Python Ecuador</p>
+                    <p> 2020</p>
+
+                    <a class="btn charla-view" href=""> VER </a>
+
+                </div>
+
+                <div class="charlas-card">
+                    <h3>  #StayHome: Modelando Epidemias con Python. </h3>
+                    <p class="charla-site"> Meetup de Python Pereira </p>
+                    <p> 2021</p>
+
+                    <a class="btn charla-view" href=""> VER </a>
+
+                </div>
+
                 
-        <div class="bloque3">
-            <h3>Contacta con nosotros</h3>
-            <p>Si quieres hacer una reserva, tienes alguna sugerencia o simplemente quieres saludar, escríbenos a:<a href="mailto:cafeoslo@cafeoslo.es"> cafeoslo@cafeoslo.es</a></p>
+                <div class="charlas-card">
+                    <h3>  Reconocimiento automático de pautas publicitarias en audio utilizando python. </h3>
+                    <p class="charla-site"> Meetup de Python Bucaramanga </p>
+                    <p> 2021</p>
+
+                    <a class="btn charla-view" href=""> VER </a>
+
+                </div>
+
+                <div class="charlas-card">
+                    <h3> Smart Cities: IoT y Seguridad Electrónica. </h3>
+                    <p class="charla-site"> Universidad del Magdalena </p>
+                    <p> VI CONFERENCIA INTERNACIONAL DE INNOVACIÓN EN INGENIERÍA DE SISTEMAS</p>
+                    <p> 2020 </p>
+
+                    <a class="btn charla-view" href=""> VER </a>
+
+                </div>
+
+                <div class="charlas-card">
+                    <h3> Industria 4.0: Aplicaciones en la educación y la empresa. </h3>
+                    <p class="charla-site"> Universidad del Magdalena </p>
+                    <p> VII CONFERENCIA INTERNACIONAL DE INNOVACIÓN EN INGENIERÍA DE SISTEMAS</p>
+                    <p> 2021 </p>
+
+                </div>
+
+
         </div>
-        
-        <div class="bloque4">
-            <h3>¿Sabes dónde estamos?</h3>
-            <p>C/ Mayor, 15 00000 Barcelona</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.7228448291894!2d2.0166598148366024!3d41.31489260845015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49cf0392912d7%3A0xb87ab5d982d59af8!2sCalle+Mayor%2C+08840+Viladecans%2C+Barcelona%2C+Espa%C3%B1a!5e0!3m2!1ses!2spe!4v1533515794611"></iframe>
-        </div>
-    
-    <div class="footer">
-        <p>Agosto 2018<br>Todos los derechos reservados</p>
-    </div>
-    
-    
-<script src="javascript/javascript.js"></script>
+
+
+
+    </section>
+
+
+
+
 </body>
+
 </html>
