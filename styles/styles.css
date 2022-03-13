@@ -243,6 +243,10 @@ header {
     font-size: 1rem;
 }
 
+.profile-copy-text span{
+  color: var(--dark-blue);
+  font-weight: 700;
+}
 .profile-copy{
     font-weight: 300;
     font-size: var(--font-md);
