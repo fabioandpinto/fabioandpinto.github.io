@@ -297,10 +297,16 @@ i{
   margin-top: 50px;
 }
 
+.tools-container{
+  display: grid;
+  justify-content: center;
+}
+
 .tools{ 
   padding: 60px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  column-gap: 90px;
   row-gap: 50px;
 }
 
