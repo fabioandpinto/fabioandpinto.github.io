@@ -600,9 +600,3 @@ i{
   }
 }
 
-@media (min-width: 1000px){
-  .charlas-combo{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
