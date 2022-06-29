@@ -17,11 +17,13 @@
   --primary-font: "Poppins", sans-serif;;
   --secondary-font: "Poppins", sans-serif;
 
+  scroll-behavior: smooth;
+
   font-size: 16px;
 }
 
 *{
-    margin: 0;
+
 }
 body {
   font-family: var(--primary-font);
@@ -50,12 +52,12 @@ p{
 
 /************* NAV BAR ************/
 .navbar {
-  height: 60px;
+  height: 80px;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   align-items: center;
   margin: 0 auto;
-  background-color: var(--turkey-blue) ;
+  background-color: transparent;
   padding: 0 1rem;
   position: sticky;
   top: 0;
@@ -76,14 +78,15 @@ p{
 }
 
 .nav-links a {
-  font-size: var(--font-md);
+  font-size: 1rem;
   text-decoration: none;
-  color: white;
+  color: var(--turkey-blue);
 }
 
 .nav-links a:hover {
-  font-size: var(--font-lg);
-  color: var(--gray-blue);
+  font-size: 1.2rem;
+  color: var(--darkest-blue);
+  transition: font-size 0.5s;
 }
 
 .redes-nav{ 
@@ -94,7 +97,7 @@ p{
 
 /************* HEADER ***************/
 .container{
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     display: flex;
     gap: 3rem;
@@ -154,6 +157,11 @@ header {
 
 .profile-cta .primary{
   background-color: var(--light-blue);
+
+}
+
+.profile-cta .proyectos{
+  background-color: rgb(68, 68, 228);
 
 }
 
@@ -232,8 +240,7 @@ header {
   padding: 2.5rem;
 }
 
-.profile-copy-text{
-    
+.profile-copy-text{  
     margin: 0 auto;
     font-weight: 300;
     margin-bottom: 3rem;
@@ -266,6 +273,7 @@ header {
 /********** SECCION DE SKILLS **********/
 .skills{
     background-color: rgba(165, 188, 206, 0.192);
+
 }
 
 .skills h2{
@@ -357,16 +365,16 @@ i{
 }
 
 .experience-cards{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  width: 80%;
   flex-wrap: wrap;
 }
 
 .experience-card{
   box-shadow: 2px 2px 7px 1px rgba(26,51,71,0.15);
-  padding: 3rem
+  padding: 2rem
 }
 
 .experience-card:hover{
@@ -386,13 +394,25 @@ i{
 .charlas h2{
   padding-top: 40px;
   padding-bottom: 40px;
+  width: 80%;
   font-size: 2rem;
   text-align: left;
 }
 
+.charlas-combo {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
 .charlas-cards{
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  width: 80%;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: auto;
  
 }
 
@@ -423,6 +443,36 @@ i{
 }
 
 
+/************** PROYECTOS ******************/
+
+.projects{
+  background-color: rgba(165, 188, 206, 0.192);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.projects h2{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.project-img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#proyectos {
+  transition-duration: 2s;
+} 
+
+/************** RESPONSIVE ******************/
+
 @media (max-width: 1000px) {
   .nav-logo p{
     font-size: 1.2rem;
@@ -439,6 +489,11 @@ i{
 
   .profile-data h2{
     font-size: 1.2rem;
+  }
+
+  .charlas-combo{
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -529,11 +584,26 @@ i{
   }
 
   .experience-cards{
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
   .experience-card{
     padding: 1rem;
     width: 70%;
   }
+
+  .charlas-combo{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px){
+  .charlas-combo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 }
