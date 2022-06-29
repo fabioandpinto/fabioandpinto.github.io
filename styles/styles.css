@@ -473,7 +473,7 @@ i{
 
 /************** RESPONSIVE ******************/
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .nav-logo p{
     font-size: 1.2rem;
   }
