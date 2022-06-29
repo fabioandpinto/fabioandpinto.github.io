@@ -588,6 +588,7 @@ i{
     flex-direction: column;
     align-items: center;
   }
+
   .experience-card{
     padding: 1rem;
     width: 70%;
@@ -599,11 +600,9 @@ i{
   }
 }
 
-@media (max-width: 1024px){
+@media (min-width: 1000px){
   .charlas-combo{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-}
-
 }
