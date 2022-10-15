@@ -167,17 +167,20 @@ header {
 }
 
 .profile-cta .primary{
-  background-color: var(--light-blue);
-
+  background-color: #FF0506;
 }
 
-.profile-cta .proyectos{
-  background-color: rgb(68, 68, 228);
-
+.primary:hover{
+  background-color: rgba(255, 5, 5, 0.651)
 }
 
 .profile-cta .secondary{ 
-  background-color: var(--turkey-blue);
+  background-color: rgb(147,200,255);
+  color: #0e0e0e;
+}
+
+.secondary:hover{
+  background-color: rgba(147,200,255, 0.651)
 }
 
 /***************** REDES FIXED BAR **********/
@@ -186,7 +189,7 @@ header {
   position: fixed;
   z-index: 100;
   left: 0.8rem;
-  top: 40%;
+  top: 10%;
 }
 
 .social-media-icon{
@@ -197,7 +200,7 @@ header {
   justify-content: center;
   border-radius: 20%;
   margin-bottom: 5px;
-  background-color: var(--darkest-blue);
+  background-color: #ffffff;
 }
 
 .social-media-icon:hover{
@@ -205,11 +208,11 @@ header {
 }
 
 .social-media-icon i{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .social-media-icon i:hover{
-  color: var(--light-blue);
+  color: #93C8FF;
 }
 
 /***************** ABOUT ME *****************/ 
@@ -437,15 +440,15 @@ i{
 
 .charlas-combo {
   display: grid;
-  width: 100%;
+  grid-template-columns: repeat(3,1fr);
+/*   width: 100%; */
   margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
 
 .charlas-cards{
   display: grid;
-  width: 80%;
+  width: 100%;
   grid-template-columns: 1fr;
   align-items: center;
   margin: auto;
@@ -542,6 +545,7 @@ i{
   
   .photo-description{ 
     width: 20rem;
+    margin: auto;
   }
 
   .container{
@@ -574,7 +578,7 @@ i{
   }
   
   .photo-profile{
-    width: 10rem;
+    width: 20rem;
   }
 
   .profile-info{
@@ -628,7 +632,7 @@ i{
   .img-badge3{
     width: 5rem;
   }
-} 
+
 .experience h2{
   margin: auto;
 }
