@@ -448,7 +448,7 @@ i{
 
 .charlas-cards{
   display: grid;
-  width: 100%;
+  width: 80%;
   grid-template-columns: 1fr;
   align-items: center;
   margin: auto;
